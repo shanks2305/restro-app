@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #212121 !important;
+    color: white !important;
+}
+
+footer{
+    background-color: #333333;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+nav{
+    background-color: #333333;
+    display: flex !important;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 40%;
+    align-content: center;
+}
+
+.links{
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
